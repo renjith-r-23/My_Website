@@ -602,17 +602,20 @@ img {
 .contact__resume {
   margin-top: 20px; /* Adjust the top margin as needed */
 }
-
 .contact__container {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  height: 100vh; /* Set the height to 100% of the viewport height */
 }
 
 .contact__form {
-  max-width: 400px;
+  max-width: 400px; /* Adjust the maximum width of the form */
   width: 100%;
+  padding: 2rem; /* Add padding for better visual spacing */
+  background-color: #f5f5f5; /* Optional: Add a background color */
+  border-radius: 10px; /* Optional: Add border radius for a rounded look */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Add box shadow for depth */
 }
 
 .contact__input,
@@ -624,6 +627,6 @@ img {
 /* Adjust responsive styles if needed */
 @media screen and (min-width: 768px) {
   .contact__form {
-      max-width: 600px; /* Adjust for larger screens */
+    max-width: 600px; /* Adjust for larger screens */
   }
 }
